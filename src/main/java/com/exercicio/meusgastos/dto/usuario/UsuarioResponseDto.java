@@ -12,7 +12,7 @@ public class UsuarioResponseDto {
 
     private String foto;
 
-    private Date dataInaticacao;
+    private Date dataInativacao;
 
     public Long getId() {
         return id;
@@ -47,11 +47,11 @@ public class UsuarioResponseDto {
     }
 
     public Date getDataInaticacao() {
-        return dataInaticacao;
+        return dataInativacao;
     }
 
     public void setDataInaticacao(Date dataInaticacao) {
-        this.dataInaticacao = dataInaticacao;
+        this.dataInativacao = dataInaticacao;
     }
 
 }
